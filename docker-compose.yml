@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  app:
+      build: .
+      container_name: "spring_app_ecommerce"
+      ports:
+        - "8081:8080"
+      environment:
+        SPRING_DATASOURCE_URL: jdbc:mysql://db_ecommerce:3306/ecommerce?createDatabaseIfNotExist=true&serverTimezone=UTC
+        SPRING_DATASOURCE_USERNAME: root
+        SPRING_DATASOURCE_PASSWORD: root
+      restart: always
+      depends_on:
+        db_ecommerce:
+          condition: service_healthy
+
+  db_ecommerce:
+    image: mysql:8.0
+    container_name: mysql-db_ecommerce
+    ports:
+      - "3307:3306"
+    environment: 
+      MYSQL_DATABASE: ecommerce
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    restart: always
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h" ,"localhost"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 10
+  
+  
