@@ -1,4 +1,4 @@
-# Spring Boot Ecommerce Order Status using Dockerfile and Docker Compose
+# Spring Boot Ecommerce Order Status using Dockerfile
 
 This Spring Boot project provides an efficient solution for order management and tracking in an ecommerce setting. It enables customers to access real-time status updates on their purchases, enhances internal logistics and customer service coordination, and promotes a transparent, satisfying shopping experience. This not only strengthens day-to-day business operations but also fosters customer loyalty by providing clear, up-to-date information about their orders.
 
