@@ -51,6 +51,19 @@ To deploy the application on the Render cloud provider, follow these steps:
    ```bash
    git checkout deploy
 
+## AWS with EC2
+![image](https://github.com/Agustin199811/spring-docker-ecommerce/assets/91472854/ca39c3bb-6caa-4b6f-bb72-5748d4f26c06)
+
+![image](https://github.com/Agustin199811/spring-docker-ecommerce/assets/91472854/e06228ea-8211-4f65-8138-4fa029bdedc4)
+
+![image](https://github.com/Agustin199811/spring-docker-ecommerce/assets/91472854/81f94c8a-bb99-4ad8-b7f7-5a7e642fb5d9)
+
+![image](https://github.com/Agustin199811/spring-docker-ecommerce/assets/91472854/26340c4e-a507-4f42-afde-180730014ede)
+
+![image](https://github.com/Agustin199811/spring-docker-ecommerce/assets/91472854/54de6808-9e90-45d6-b365-41d62a1ee41a)
+
+![image](https://github.com/Agustin199811/spring-docker-ecommerce/assets/91472854/fd429188-1247-4e66-a307-05d284e8d7ab)
+
 ## Contribution
 
 If you wish to contribute to this project, please follow these steps:
