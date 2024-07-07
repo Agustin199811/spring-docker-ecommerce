@@ -18,7 +18,8 @@ This project is currently in development and is being worked on for version 1.0.
 ## Installation and Setup
 
 1. Clone this repository to your local machine using the following command:
-    + git clone https://github.com/Agustin199811/spring-docker-ecommerce.git
+    ```bash
+    git clone https://github.com/Agustin199811/spring-docker-ecommerce.git
 
 2. Import the project into your preferred IDE (e.g., IntelliJ IDEA or Eclipse) as a Maven project.
 
@@ -39,6 +40,16 @@ The Product Order Status REST API exposes the following endpoints:
 - `POST /api/orders`: Create a new orders.
 
 You can use tools such as Postman or cURL to send HTTP requests to these endpoints.
+
+## Deploy on Render
+
+Switch to the `deploy` branch to upload to the Render cloud provider
+
+To deploy the application on the Render cloud provider, follow these steps:
+
+1. **Switch to the `deploy` branch**:
+   ```bash
+   git checkout deploy
 
 ## Contribution
 
