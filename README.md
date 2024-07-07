@@ -18,17 +18,19 @@ This project is currently in development and is being worked on for version 1.0.
 ## Installation and Setup
 
 1. Clone this repository to your local machine using the following command:
-    + git clone https://github.com/Agustin199811/spring-docker-ecommerce.git
+    ```bash
+    git clone https://github.com/Agustin199811/spring-docker-ecommerce.git
 
 2. Import the project into your preferred IDE (e.g., IntelliJ IDEA or Eclipse) as a Maven project.
 
-3. Run the Spring Boot application. The application will be available at `http://localhost:8081`.
-    - Navigate to the root directory of your project (where your docker-compose.yml file is located).
-        - `Build the Docker Compose`:
-            + docker-compose build
-        - `Run the Docker container:`
-            + docker-compose up
-
+3. Run the Spring Boot application. The application will be available at `http://localhost:8080`.
+    - Configure environment variables in database cloud:
+        ```bash
+        spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+        spring.datasource.url=jdbc:mysql://viaduct.proxy.rlwy.net:15286/railway
+        spring.datasource.username=root
+        spring.datasource.password=zlYTQXDrERWPGvKrioUzxZnZEOOHLqJr
+        
 ## Usage
 
 
